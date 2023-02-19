@@ -22,11 +22,11 @@ notes_win.resize(600, 400)
 
 # виджеты окна приложения
 list_notes = QListWidget()
-list_notes_label = QLabel('Notes list')
 
 button_create = QPushButton('Create note')  # появляется окно с полем "Введите имя заметки"
 button_delete = QPushButton('Delete Note')
 button_save = QPushButton('Save note')
+button_save = QPushButton('Create tag')
 
 field_text = QTextEdit()
 
